@@ -122,6 +122,34 @@
             //bool isSubset = subSet.IsSubsetOf(setA);
             //Console.WriteLine($"\nIs {{1, 2}} a subset of Set A? {isSubset}");
             #endregion
+            #region Search of the session
+            #region Sortedlist<T>
+            /*Key-Value Pair Collection: It stores data as (Key, Value) pairs, just like a Dictionary.
+             * Auto-Sorting: It automatically keeps the items sorted by their Keys in ascending order.
+             * Array-Based: Internally, it uses two internal arrays (one for keys, one for values).
+             * Key Benefit: Uses less memory than SortedDictionary, but inserting/removing items can be slower if the list is large because internal array elements have to shift.
+            */
+            //SortedList<int, string> students = new SortedList<int, string>();
+            //students.Add(3, "Ali");
+            //students.Add(1, "Ahmed");
+            //students.Add(2, "Sara");
+            //foreach (var student in students)
+            //{
+            //    Console.WriteLine($"{student.Key}: {student.Value}");
+            //}
+            #endregion
+            #region Span<T>
+            /*A High-Performance View of Memory: It lets you represent and manipulate contiguous regions of memory 
+             * (like arrays, strings, or stack allocation) without copying data.
+             * Zero Allocation / High Performance: Slice arrays or strings without creating new objects in heap memory.
+             * Stack-Only (ref struct): Designed for extreme efficiency, avoiding Garbage Collector (GC) pressure.
+            */
+            //int[] numbers = { 10, 20, 30, 40, 50 };
+            //Span<int> slice = numbers.AsSpan(1, 3); 
+            //slice[0] = 99; 
+            //Console.WriteLine(string.Join(", ", numbers));
+            #endregion
+            #endregion
         }
     }
 }
