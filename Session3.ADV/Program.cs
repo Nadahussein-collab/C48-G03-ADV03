@@ -64,6 +64,38 @@
             //    Console.WriteLine($"{player.Key}: {player.Value}");
             //}
             #endregion
+            #region Exercise3
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>()
+            //{
+            //    { "Ahmed", "01012345678" },
+            //    { "Sara", "01123456789" },
+            //    { "Ali", "01234567890" },
+            //    { "Mona", "01545678901" }
+            //};
+
+            //phoneBook["Omar"] = "01099988877";
+
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "01000000000");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"Error using .Add(): {ex.Message}");
+            //}
+
+            //bool isAdded = phoneBook.TryAdd("Ahmed", "01000000000");
+            //Console.WriteLine($"TryAdd succeeded: {isAdded}");
+
+            //bool exists = phoneBook.ContainsKey("Kareem");
+            //Console.WriteLine($"Search for Kareem: {exists}");
+
+            //string phoneNumber = phoneBook.GetValueOrDefault("Kareem", "Not Found");
+            //Console.WriteLine($"Kareem's Phone: {phoneNumber}");
+
+            //Console.WriteLine("Keys: " + string.Join(", ", phoneBook.Keys));
+            //Console.WriteLine("Values: " + string.Join(", ", phoneBook.Values));
+            #endregion
         }
     }
 }
