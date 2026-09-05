@@ -31,6 +31,39 @@
             //}
 
             #endregion
+            #region Exercise2
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>
+            //{
+            //        { 500, "Ahmed" },
+            //        { 200, "Sara" },
+            //        { 800, "Ali" },
+            //        { 350, "Mona" }
+            //};
+
+            //foreach (KeyValuePair<int, string> player in leaderboard)
+            //{
+            //    Console.WriteLine($"{player.Key}: {player.Value}");
+            //}
+
+            //using var enumerator = leaderboard.GetEnumerator();
+            //enumerator.MoveNext();
+            //Console.WriteLine($"First Key: {enumerator.Current.Key}");
+            //Console.WriteLine($"First Value: {enumerator.Current.Value}");
+
+            //bool exists = leaderboard.ContainsKey(500);
+            //Console.WriteLine($"Score 500 exists: {exists}");
+
+            //bool hasPlayer = leaderboard.TryGetValue(999, out string player999);
+            //Console.WriteLine($"Player with score 999: {player999 ?? "Not Found"}");
+
+            //leaderboard.Remove(200);
+
+            //Console.WriteLine("\nUpdated Leaderboard:");
+            //foreach (var player in leaderboard)
+            //{
+            //    Console.WriteLine($"{player.Key}: {player.Value}");
+            //}
+            #endregion
         }
     }
 }
